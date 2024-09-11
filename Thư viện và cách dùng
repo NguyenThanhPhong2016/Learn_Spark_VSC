@@ -1,2 +1,13 @@
 Glob dùng để đọc file nhanh: đọc tất cả các file trong 1 thư mục
 
+Dữ liệu thì chỉ chứa thông tin các dòng, ko có header
+Sẽ có 1 file '.json' chứa tất cả thông tin về header
+Dùng thư viện json để đọc file .json -> lưu thành header  
+Dùng pandas để đọc " dữ liệu + header". 
+Example: 
+       order_id             order_date  order_customer_id     order_status
+0             1  2013-07-25 00:00:00.0              11599           CLOSED
+1             2  2013-07-25 00:00:00.0                256  PENDING_PAYMENT
+
+
+
