@@ -9,5 +9,5 @@ Example:
 0             1  2013-07-25 00:00:00.0              11599           CLOSED
 1             2  2013-07-25 00:00:00.0                256  PENDING_PAYMENT
 
-
+if __name__ == '__main__': dùng để chạy thử nghiệm. Khi 1 file A import file B thì file B sẽ không chạy chương trình trong  if __name__ == '__main__' 
 
